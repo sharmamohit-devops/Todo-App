@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="icon"
+        href="https://w7.pngwing.com/pngs/670/265/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png"type="image/png">
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Todo List</h1>
+        <form class="textinput" onsubmit="addTask(); return false;">
+            <input class="input" type="text" placeholder="Add a new task" />
+            <button type="submit" class="add">Add</button>
+        </form>
+        <ul class="listcontainer"></ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+
+</html>
